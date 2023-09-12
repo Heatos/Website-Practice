@@ -1,0 +1,66 @@
+body {
+    background-color: tan;
+    color: black;
+    text-align: 100;
+    font-family: sans-serif
+}
+h1 {
+    color:red
+}
+
+.table {
+    background-repeat: no-repeat, repeat;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: tan;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    background-image: url("../Images/Cardy.png");
+    background-position: bottom;
+    filter: contrast(1)
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    color: red
+}
+
+.top_drop-content {     
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    box-shadow: 0px 10px 20px 0px gray;
+    min-width: 200px;
+    padding: 10px 20px; 
+    z-index: 1;
+}
+
+.bottom_drop-content {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    box-shadow: 0px 10px 20px 0px gray;
+    min-width: 300px;
+    padding: 10px 20px; 
+    z-index: 1;
+}
+
+.top_drop:hover .top_drop-content {
+    display: block;
+}
+
+.bottom_drop:hover .bottom_drop-content {
+    display: block;
+}
+
+ul:first-of-type {
+    list-style-type: decimal;
+}
+
